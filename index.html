@@ -234,28 +234,67 @@
     <section id="media" class="media">
         <div class="container">
             <h2 class="section-title">Media & Featured Appearances</h2>
-            <p class="media-intro" style="text-align: center; color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
-                Explore selected masterclasses, interviews, and speaking engagements designed to inspire healing and drive transformational growth.
+            <p class="media-intro"
+                style="text-align: center; color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Explore selected interviews, media features, and speaking engagements designed to inspire healing and
+                drive transformational growth.
             </p>
             <div class="media-grid">
-                <!-- Placeholder for actual embedded YouTube video 1 -->
-                <div class="video-container">
-                    <div class="video-placeholder">
-                        <i class="fab fa-youtube"></i>
-                        <p>Interview / Keynote Coming Soon</p>
+                <!-- Embedded Video -->
+                <div class="media-card video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/5RRz9Cof4sI" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
-                <!-- Placeholder for actual embedded YouTube video 2 -->
-                <div class="video-container">
-                    <div class="video-placeholder">
-                        <i class="fab fa-youtube"></i>
-                        <p>Masterclass Coming Soon</p>
+
+                <!-- External Articles & Audio -->
+                <div class="media-card article-card">
+                    <div class="media-icon"><i class="fas fa-globe-africa"></i></div>
+                    <div class="media-info">
+                        <h4>World Without Orphans Feature</h4>
+                        <p>Read about Dr. Sarah's transformational work advocating for safe families.</p>
+                        <a href="https://worldwithoutorphans.org/story/sarah-kwagala-kasozi" target="_blank"
+                            class="media-link">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="media-card article-card">
+                    <div class="media-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="media-info">
+                        <h4>Kampala Edge Times Interview</h4>
+                        <p>Dr. Kwagala talks extensively about teenage pregnancy and societal impact.</p>
+                        <a href="https://www.kampalaedgetimes.com/dr-kwagala-talks-about-teenage-pregnancy/"
+                            target="_blank" class="media-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="media-card article-card">
+                    <div class="media-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <div class="media-info">
+                        <h4>VOA Africa Appearance</h4>
+                        <p>Listen to insights shared on Voice of America Africa network.</p>
+                        <a href="https://www.voaafrica.com/a/4142206.html" target="_blank" class="media-link">Listen
+                            Here <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="media-card article-card">
+                    <div class="media-icon"><i class="fas fa-heart"></i></div>
+                    <div class="media-info">
+                        <h4>Heart to Heart Initiative</h4>
+                        <p>Discover the core mission and background of the Heart to Heart Initiative.</p>
+                        <a href="https://heart2heartinitiative.org/about-us/" target="_blank" class="media-link">Visit
+                            Initiative <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            
+
             <div class="media-cta" style="text-align: center; margin-top: 3rem;">
-                <a href="https://www.youtube.com/@sarahkwagalakasozi5364" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <a href="https://www.youtube.com/@sarahkwagalakasozi5364" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-primary">
                     <i class="fab fa-youtube" style="margin-right: 8px;"></i> Visit My Full YouTube Channel
                 </a>
             </div>
@@ -265,29 +304,29 @@
     <!-- Publications Section -->
     <section id="publications" class="publications">
         <div class="container">
-            <h2 class="section-title">Publications & Research</h2>
+            <h2 class="section-title">Publications</h2>
             <div class="publications-content">
                 <div class="pub-category books-category">
                     <h3>Books</h3>
                     <div class="books-grid">
                         <div class="book-card">
-                            <img src="images/book1.png" alt="Joypillar Book Cover" class="book-cover">
+                            <img src="images/book1.jpg" alt="Joypillar Book Cover" class="book-cover">
                             <div class="book-info">
                                 <h4>"Joypillar"</h4>
-                                <p>A guiding light on your journey to healing and leadership. <em>Published by [Publisher], 2023</em></p>
+                                <p>A powerful guide to building strong, resilient, and purpose-driven relationships, sharing practical wisdom on love, faith, and perseverance.</p>
                             </div>
                         </div>
                         <div class="book-card">
-                            <img src="images/book2.png" alt="Unbroken 24/7 Book Cover" class="book-cover">
+                            <img src="images/book2.jpeg" alt="Unbroken 24/7 Book Cover" class="book-cover">
                             <div class="book-info">
                                 <h4>"Unbroken 24/7"</h4>
-                                <p>Discovering resilience and strength in life's hardest moments. <em>Published by [Publisher], 2021</em></p>
+                                <p>A practical guide to holistic living and self-mastery, helping you balance progress, purpose, and peace to pursue your God-given potential.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="pub-category">
+                <!-- <div class="pub-category">
                     <h3>Academic Papers</h3>
                     <div class="publication-item">
                         <h4>"The Role of Emotional Intelligence in Educational Leadership"</h4>
@@ -297,7 +336,7 @@
                         <h4>"Community-Based Approaches to Mental Health Counseling"</h4>
                         <p><em>International Journal of Counseling Psychology, Vol. 32, 2023</em></p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="pub-category youtube-category">
                     <h3>Video Insights</h3>
@@ -305,8 +344,10 @@
                         <div class="yt-icon"><i class="fab fa-youtube"></i></div>
                         <div class="yt-text">
                             <h4>Video Insights: Subscribe to my YouTube channel</h4>
-                            <p>Join our growing community to watch my national TV appearances, interviews, and deep dives into mental health, personal healing, and spiritual growth.</p>
-                            <a href="https://www.youtube.com/@sarahkwagalakasozi5364" target="_blank" rel="noopener noreferrer" class="btn btn-primary yt-btn">Subscribe to Channel</a>
+                            <p>Join our growing community to watch my national TV appearances, interviews, and deep
+                                dives into mental health, personal healing, and spiritual growth.</p>
+                            <a href="https://www.youtube.com/@sarahkwagalakasozi5364" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary yt-btn">Subscribe to Channel</a>
                         </div>
                     </div>
                 </div>
@@ -537,6 +578,7 @@
                     <ul>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
+                        <li><a href="#media">Media</a></li>
                         <li><a href="#publications">Publications</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -554,14 +596,12 @@
 
                 <div class="footer-section">
                     <h4>Heart to Heart Initiative</h4>
-                    <p>Proudly serving as an Executive Director | Co-Founder at Heart to Heart Initiative, dedicated to
-                        community
-                        transformation and social impact.</p>
+                    <p>Proudly serving as an Executive Director | Co-Founder at the <a href="https://heart2heartinitiative.org/about-us/" target="_blank" style="color: var(--secondary-light); text-decoration: none;">Heart to Heart Initiative</a>, dedicated to community transformation and social impact.</p>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Prof. Dr. Sarah Kwagala Kasozi. All rights reserved. | Professional services with heart
+                <p>&copy; 2026 Prof. Dr. Sarah Kwagala Kasozi. All rights reserved. | Professional services with heart
                     and integrity.</p>
             </div>
         </div>
